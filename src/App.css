@@ -1,0 +1,112 @@
+/* src/App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #5865F2;
+  color: white;
+  height: 100%;
+  display: flex;
+  /*justify-content: center;
+  align-items: center;*/
+}
+
+/*.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}*/
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  background-color: #5865F2;
+  z-index: 10;
+}
+
+.logo {
+  width: 120px;
+}
+
+.menu-icon {
+  width: 30px; 
+  height: auto;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  /*align-items: center;*/
+  text-align: left;
+  width: 80%; 
+  max-width: 1200px;
+}
+
+.text-content {
+  padding-top: 100px; 
+  padding-left: 100px; 
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 1rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif
+}
+
+.download-btn {
+  background-color: white;
+  color: #5865F2;
+  font-weight: bold;
+  width: 200px;
+}
+
+.browser-btn {
+  background-color: #23272A;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+}
+
+.illustration {
+  margin-top: auto; /* Push the illustration to the bottom */
+  padding-bottom: 20px; /* Add space from the bottom of the screen */
+  text-align: center;
+}
+
+.illustration img {
+  width: 100%;
+  max-width: 400px;
+}
